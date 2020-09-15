@@ -74,6 +74,11 @@
     position: relative;
     border-radius: 3px;
 }
+.box .price {
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+}
 
 /* .box:hover {
     transform: scale(1.1);
