@@ -21,7 +21,7 @@
     margin-bottom: 15px;
 }
 #bar2 {
-    border-top: 5px solid black;
+    border-top: 5px solid #eee;
     width: 35px;
     margin-left: 10px;
     margin-bottom: 15px;
@@ -70,7 +70,7 @@
     flex: 1 1 220px;
     margin: 16px 10px;
     box-sizing: border-box;
-    box-shadow: 1px 2px 4px grey;
+    /* box-shadow: 1px 2px 4px grey; */
     position: relative;
     border-radius: 3px;
 }
@@ -80,11 +80,11 @@
     font-size: 14px;
 }
 
-/* .box:hover {
+.box:hover {
     transform: scale(1.1);
-    box-shadow: 1px 2px 8px rgb(6, 92, 190);
+    box-shadow: 1px 2px 8px rgb(235, 22, 181);
     transition: 0.3s ease;
-} */
+}
 
 .sort {
     margin-top: 100px;
@@ -256,7 +256,7 @@ body {
 
 nav {
     display: flex;
-    background: #fff;
+    background: #333;
     padding: 15px;
     justify-content: space-between;
     overflow: hidden;
@@ -270,7 +270,7 @@ nav {
 
 nav h1 {
     padding: 5px 0 5px 0;
-    color: #333;
+    color: #eee;
     font-size: 2em;
 }
 
@@ -314,7 +314,7 @@ nav ul {
 nav a {
     text-decoration: none;
     text-align: center;
-    color: #333;
+    color: #eee;
     display: block;
     padding: 10px;
     font-size: 14px;
@@ -331,6 +331,7 @@ nav a:hover {
 
 
 .fa-shopping-bag {
+    color: #eee;
     font-size: 1.8em;
     margin-left: 45vw;
     margin-top: 10px;
@@ -340,9 +341,12 @@ nav a:hover {
 
 .notif {
     font-size: 10px;
+    padding: 2px 4px 0 4px;
+    border-radius: 50%;
+    background-color: #333;
     font-weight: bolder;
     color: rgb(255, 19, 196);
-    margin-left: -15px;
+    margin-left: -19px;
 }
 
 
