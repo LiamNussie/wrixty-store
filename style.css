@@ -377,10 +377,14 @@ nav a:hover {
     }
     .box {
         flex: 1 1 160px;
-        height: 280px;
+        height: 270px;
     }
     .nav-icons {
         margin-left: -100px;
+    }
+    .box i {
+        bottom: 27%;
+        font-size: 1.0em;
     }
 }
 
