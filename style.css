@@ -381,6 +381,7 @@ nav ul.social li {
 @media screen and (max-width: 480px) {
     .box {
         flex: 1 1 160px;
+        height: 300px;
     }
 }
 
