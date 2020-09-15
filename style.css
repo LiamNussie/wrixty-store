@@ -324,6 +324,7 @@ nav a:hover {
 }
 
 
+
 .fa-shopping-bag {
     font-size: 1.8em;
     margin-left: 45vw;
@@ -376,7 +377,10 @@ nav a:hover {
     }
     .box {
         flex: 1 1 160px;
-        height: 250px;
+        height: 280px;
+    }
+    .nav-icons {
+        margin-left: -100px;
     }
 }
 
